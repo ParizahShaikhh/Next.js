@@ -1,17 +1,14 @@
 import React from 'react';
 
-
-
 const Skills: React.FC = () => {
     return (
-        <>
-        <div className='flex flex-col items-center justify-center min-h-screen py-2'><h1 className='text-4xl font-bold mb-4'>Skills</h1>
-        <p className='text-lg text-center max-w-md'>
-            I am a passionate developer with a keen interest in TypeScript, Next.js, and Tailwind CSS. I love solving problems and building projects that make a difference.</p>
-            </div>
-            </>
+        <div className="flex flex-col items-center justify-center min-h-screen py-8 bg-[#0F4C75] ">
+            <h1 className="text-4xl font-bold mb-6">Skills</h1>
+            <p className="text-lg text-center max-w-md">
+            My core skills include TypeScript, JavaScript, Next.js, and Tailwind CSS, with a focus on building clean, maintainable, and efficient code. I’m also proficient in responsive design, ensuring that websites are visually consistent across all devices. With each project, I aim to deepen my expertise and stay up-to-date with industry trends, incorporating modern libraries and tools for a better development experience.
+            </p>
+        </div>
     );
 };
-
 
 export default Skills;
